@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { Shopdata } from '../../Context/Shopcontext'
 import { authdatacontext } from '../../../Admin/src/Context/AuthContext'
 import axios from 'axios'
-import { Authdatacontext } from '../../Context/authcontext'
+import { Authdatacontext } from '../../Context/Authcontext'
 import { useSelector } from 'react-redux'
 import { cartdata } from '../../Context/Cartcontext'
 
