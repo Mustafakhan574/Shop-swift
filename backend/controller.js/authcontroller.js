@@ -22,8 +22,8 @@ module.exports.signup=async(req,res)=>{
       let token = await generatetoken(user._id)
       res.cookie("token",token,{
           httpOnly:true,
-          secure:false,
-          sameSite:"Strict",
+          secure:true,
+          sameSite:"none",
           maxAge:7*24*60*60*1000
       })
       return res.status(201).json(user)
@@ -46,8 +46,8 @@ module.exports.login=async(req,res)=>{
    let token = await generatetoken(userlogin._id)
       res.cookie("token",token,{
           httpOnly:true,
-          secure:false,
-          sameSite:"Strict",
+          secure:true,
+          sameSite:"none",
           maxAge:7*24*60*60*1000
       })
       return res.status(200).json(userlogin)
@@ -77,8 +77,8 @@ module.exports.googlelogin=async(req,res)=>{
    let token = await generatetoken(userlogin._id)
       res.cookie("token",token,{
           httpOnly:true,
-          secure:false,
-          sameSite:"Strict",
+          secure:true,
+          sameSite:"none",
           maxAge:7*24*60*60*1000
       })
       return res.status(200).json(userlogin)
@@ -94,8 +94,8 @@ module.exports.adminlogin=async(req,res)=>{
         let token = await generatetoken1(email)
       res.cookie("token",token,{
           httpOnly:true,
-          secure:false,
-          sameSite:"Strict",
+          secure:true,
+          sameSite:"none",
           maxAge:7*24*60*60*1000
       })
       return res.status(200).json(token)
