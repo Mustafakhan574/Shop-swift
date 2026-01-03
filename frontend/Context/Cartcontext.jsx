@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect } from 'react'
-import { Authdatacontext } from './authcontext'
+import { Authdatacontext } from './Authcontext'
 import axios from 'axios'
 import {useDispatch, useSelector} from 'react-redux'
 import { setcartitems, setorders } from '../Redux/CartSlice'
