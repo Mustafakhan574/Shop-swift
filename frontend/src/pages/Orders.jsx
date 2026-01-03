@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { FaRegTrashAlt } from "react-icons/fa";
-import { Authdatacontext } from '../../Context/authcontext';
+import { Authdatacontext } from '../../Context/Authcontext';
 import axios from 'axios';
 import { setorders } from '../../Redux/CartSlice';
 const Orders = () => {
