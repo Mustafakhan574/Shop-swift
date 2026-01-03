@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import google from "../assets/google.jpg"
 import { FaEye } from "react-icons/fa";
 import { LuEyeClosed } from "react-icons/lu";
-import { Authdatacontext } from '../../Context/authcontext';
+import { Authdatacontext } from '../../Context/Authcontext';
 import axios from "axios"
 import { auth, provider } from '../../utils/Firebase';
 import { signInWithPopup } from 'firebase/auth';
