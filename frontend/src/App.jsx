@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import { Route, Routes, Navigate } from 'react-router-dom'
 import Signup from './pages/Signup.jsx'
@@ -14,7 +12,6 @@ import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
 import Orders from './pages/Orders.jsx'
 import Productdetail from './pages/Productdetail.jsx'
-import Cartitems from './pages/Cartitems.jsx'
 import Addtocart from './pages/Addtocart.jsx'
 import Product from './pages/Product.jsx'
 function App() {

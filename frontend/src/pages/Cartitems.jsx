@@ -7,8 +7,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { setcartitems, updateqty } from '../../Redux/CartSlice';
 import axios from 'axios';
 import { useContext } from 'react';
-import { Authdatacontext } from '../../Context/authcontext';
+
 import { cartdata } from '../../Context/Cartcontext';
+import { Authdatacontext } from '../../Context/Authcontext';
 const Cartitems = ({item}) => {
           const dispatch = useDispatch()
           const {cartitems} = useSelector((state)=>state.cart)

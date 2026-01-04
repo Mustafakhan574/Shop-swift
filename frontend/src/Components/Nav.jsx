@@ -9,10 +9,11 @@ import { useNavigate } from 'react-router-dom';
 import { MdOutlineCollectionsBookmark } from "react-icons/md";
 import axios from 'axios';
 import { IoHomeOutline } from "react-icons/io5";
-import { Authdatacontext } from '../../Context/Authcontext';
+
 import { MdOutlineContactPhone } from "react-icons/md";
 import { Shopdata } from '../../Context/Shopcontext';
 import { useSelector } from 'react-redux';
+import { Authdatacontext } from '../../Context/Authcontext';
 const Nav = () => {
           let {curuser,getcuruser} = useContext(userdatacontext);
           let {cartitems} = useSelector(state=>state.cart)

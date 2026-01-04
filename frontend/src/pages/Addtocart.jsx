@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import Cartitems from './Cartitems';
 import { BsCart } from "react-icons/bs";
-import { Authdatacontext } from '../../Context/authcontext';
+import { Authdatacontext } from '../../Context/Authcontext';
 import axios from 'axios';
 import { setorders } from '../../Redux/CartSlice';
 import { cartdata } from '../../Context/Cartcontext';

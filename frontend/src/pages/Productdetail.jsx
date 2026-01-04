@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { Shopdata } from '../../Context/Shopcontext'
-import { authdatacontext } from '../../../Admin/src/Context/AuthContext'
 import axios from 'axios'
 import { Authdatacontext } from '../../Context/Authcontext'
 import { useSelector } from 'react-redux'
