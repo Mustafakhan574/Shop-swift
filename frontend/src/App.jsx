@@ -9,14 +9,14 @@ import Login from './pages/Login.jsx'
 import Nav from './Components/Nav.jsx'
 import { useContext } from 'react'
 import { userdatacontext } from '../Context/User'
-import Collections from './Pages/Collections.jsx'
-import About from './Pages/About.jsx'
-import Product from './Pages/Product.jsx'
-import Contact from './Pages/Contact.jsx'
+import Collections from './pages/Collections.jsx'
+import About from './pages/About.jsx'
+import Contact from './pages/Contact.jsx'
 import Orders from './pages/Orders.jsx'
 import Productdetail from './pages/Productdetail.jsx'
 import Cartitems from './pages/Cartitems.jsx'
 import Addtocart from './pages/Addtocart.jsx'
+import Product from './pages/Product.jsx'
 function App() {
   let {curuser} = useContext(userdatacontext);
   return (
