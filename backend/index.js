@@ -13,7 +13,7 @@ let app = express();
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-     origin:["https://shop-swift-frontend8.onrender.com","https://shop-swift-admin1.onrender.com"],
+     origin:["https://shop-swift-frontend9.onrender.com","https://shop-swift-admin1.onrender.com"],
      credentials:true
 }))
 app.use("/api/auth",authRoutes)
