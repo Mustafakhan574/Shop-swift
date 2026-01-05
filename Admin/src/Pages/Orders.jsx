@@ -60,7 +60,7 @@ const Orders = () => {
               {order.items.map((item, index) => (
                 <div
                   key={index}
-                  className='w-[75%] md:h-[120px] min-h-[90px] bg-slate-600 rounded-xl flex items-center justify-between gap-[20px] p-[10px]'
+                  className='w-[75%] md:h-[120px] h-[90px] bg-slate-600 rounded-xl flex items-center justify-between gap-[20px] p-[10px] mb-4'
                 >
                   <img
                     src={item.image}
