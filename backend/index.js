@@ -23,9 +23,6 @@ app.use("/api/cart",cartRouter);
 app.use("/api/order",orderRouter);
 console.log("Cart router mounted at /api/cart");
 const port = process.env.PORT || 3001
-app.get("/",(req,res)=>{
-          res.send("hello from server")
-})
 app.listen(port,()=>{
           console.log(`http://localhost:${port}`)
           connectdb();
