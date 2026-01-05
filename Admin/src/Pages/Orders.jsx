@@ -57,10 +57,11 @@ const Orders = () => {
                <h2 className='text-white text-xl mb-3'>
                 Customer Name: {order.user?.name}
               </h2>
+              <div className="flex flex-col gap-4">
               {order.items.map((item, index) => (
                 <div
                   key={index}
-                  className='w-[75%] md:h-[120px] h-[90px] bg-slate-600 rounded-xl flex items-center justify-between gap-[20px] p-[10px] mb-4'
+                  className='w-[75%] md:h-[120px] h-[90px] bg-slate-600 rounded-xl flex items-center justify-between gap-[20px] p-[10px] '
                 >
                   <img
                     src={item.image}
@@ -82,6 +83,7 @@ const Orders = () => {
                   </div>
                 </div>
               ))}
+                </div>
             </div>
           ))
         ) : (
