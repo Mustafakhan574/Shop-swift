@@ -35,7 +35,7 @@ const Lists = () => {
     <div className='w-full min-h-[100vh] overflow-hidden bg-[#000000cb] text-black'>
 <Nav/>
 <Sidebar/>
-    <div className='w-[82%] h-[100%] lg:ml-[320px] md:ml-[250px] flex flex-col gap-[30px] overflow-x-hidden py-[50px] ml-[120px]  sm:ml-[200px]'>
+    <div className='w-[80%] h-[100%] lg:ml-[320px] md:ml-[250px] flex flex-col gap-[30px] overflow-x-hidden py-[50px] ml-[125px]  sm:ml-[200px]'>
       <div className='w-[400px] h-[50px] text-[20px] md:text-[40px] mb-[20px] text-white mt-[60px]'>
        All List Products
       </div>
